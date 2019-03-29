@@ -1,0 +1,29 @@
+{
+  "properties": [
+    {
+      "name": "email.host",
+      "type": "java.lang.String",
+      "description": "smtp server"
+    },
+    {
+      "name": "email.port",
+      "type": "java.lang.String",
+      "description": "smtp port"
+    },
+    {
+      "name": "email.from",
+      "type": "java.lang.String",
+      "description": "email from address"
+    },
+    {
+      "name": "email.password",
+      "type": "java.lang.String",
+      "description": "email password"
+    },
+    {
+      "name": "longeco.baseUrl",
+      "type": "java.lang.String",
+      "description": "Base url."
+    }
+  ]
+}

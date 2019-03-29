@@ -1,0 +1,44 @@
+spring:
+  application:
+    env: local
+    name: Longeco - sykkelappen
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  datasource:
+    url: jdbc:postgresql://localhost:5432/longeco
+    username: longeco
+    password: longeco
+    driver-class-name: org.postgresql.Driver
+    platform: postgres
+    tomcat:
+      max-active: 10
+      max-idle: 8
+      min-idle: 8
+      max-wait: 10000
+      min-evictable-idle-time-millis: 1000
+      time-between-eviction-runs-millis: 1000
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+longeco:
+  baseUrl: http://localhost:8080/longeco/
+server:
+  error:
+    whitelabel:
+      enabled: false
+  servlet:
+    context-path: /longeco
+    session:
+      timeout: 604800
+email:
+  host: smtp.eiendomsinfo.no
+  port: 25
+  from: no-reply@ambita.com
+ping:
+  fixed-rate: 60000
+logging:
+  level:
+    web: 'DEBUG'

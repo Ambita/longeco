@@ -1,0 +1,13 @@
+input#days0\.distance, input#days1\.distance, input#days2\.distance, input#days3\.distance, input#days4\.distance, input#days5\.distance, input#days6\.distance {
+    text-align: right;
+    width: 80px;
+    margin-right: 30px;
+}
+
+.jumbotron {
+    padding: 2rem 2rem;
+}
+
+.numberInTable {
+    text-align: right;
+}
