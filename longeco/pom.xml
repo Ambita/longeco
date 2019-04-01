@@ -70,11 +70,6 @@
     </dependency>
 
     <dependency>
-      <groupId>com.moonlit.logfaces</groupId>
-      <artifactId>lfsappenders</artifactId>
-    </dependency>
-
-    <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-email</artifactId>
     </dependency>
